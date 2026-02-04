@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager App | Projects</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Nunito:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">
+      <img class="logo-mark" src="../images/logoX.jpg" alt="Xinyang logo">
+      Xinyang
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="../portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PROJECT DETAIL -->
+<div class="container py-5">
+    <div class="project-detail">
+        <h1>Task Manager App</h1>
+        
+        <div class="project-meta">
+            <div class="project-meta-item">
+                <strong>Type:</strong> Mobile Application
+            </div>
+            <div class="project-meta-item">
+                <strong>Tools:</strong> WebStorm, Android Studio
+            </div>
+            <div class="project-meta-item">
+                <strong>Duration:</strong> 8 weeks
+            </div>
+            <div class="project-meta-item">
+                <strong>Status:</strong> Completed
+            </div>
+        </div>
+
+        <img src="../images/tasklist.jpg" alt="Task Manager App" class="project-detail-image">
+
+        <div class="project-section">
+            <h2>Project Overview</h2>
+            <p>
+                The Task Manager App is a cross-platform productivity application designed to help users efficiently track, organize, and manage their daily tasks. Developed using modern web and mobile technologies, the app combines an intuitive interface with powerful functionality to boost user productivity.
+            </p>
+            <p>
+                This project demonstrates full-stack development capabilities including frontend UI design, backend logic, database management, and mobile optimization. The app prioritizes user experience with an clean interface and responsive design.
+            </p>
+        </div>
+
+        <div class="project-section">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Create, edit, and delete tasks with detailed descriptions</li>
+                <li>Organize tasks into custom categories and projects</li>
+                <li>Set deadlines, priorities, and recurring reminders</li>
+                <li>Visual progress tracking and completion statistics</li>
+                <li>Search and filter functionality for quick task access</li>
+                <li>Dark mode support for comfortable extended use</li>
+                <li>Cloud synchronization across multiple devices</li>
+            </ul>
+        </div>
+
+        <div class="project-section">
+            <h2>Technical Stack</h2>
+            <p>
+                <strong>Frontend:</strong> Built with modern web technologies including HTML5, CSS3, and JavaScript ES6+. The interface was developed to be responsive and touch-friendly for mobile devices.
+            </p>
+            <p>
+                <strong>Mobile Development:</strong> Native Android development using Android Studio with Java. Implemented Material Design principles for consistent user experience.
+            </p>
+            <p>
+                <strong>Backend:</strong> RESTful API developed to handle task management logic, user authentication, and data persistence. Implemented proper error handling and data validation.
+            </p>
+            <p>
+                <strong>Database:</strong> SQLite for local storage with cloud synchronization capabilities for cross-device data consistency.
+            </p>
+        </div>
+
+        <div class="project-section">
+            <h2>Development Highlights</h2>
+            <p>
+                <strong>User Interface:</strong> Designed a clean, intuitive interface that makes task management effortless. Focused on minimizing clicks and streamlining the workflow.
+            </p>
+            <p>
+                <strong>Performance Optimization:</strong> Implemented efficient data structures and algorithms for fast task searching and filtering even with large task lists.
+            </p>
+            <p>
+                <strong>Offline Functionality:</strong> App works seamlessly offline with automatic synchronization when connection is restored.
+            </p>
+        </div>
+
+        <div class="project-section">
+            <h2>Challenges & Solutions</h2>
+            <p>
+                <strong>Challenge:</strong> Synchronizing data across web and mobile platforms while maintaining data consistency.
+            </p>
+            <p>
+                <strong>Solution:</strong> Implemented a robust backend API with proper conflict resolution mechanisms and version control for task updates.
+            </p>
+            <p>
+                <strong>Challenge:</strong> Managing performance with large task lists.
+            </p>
+            <p>
+                <strong>Solution:</strong> Implemented pagination, lazy loading, and efficient database queries to maintain smooth user experience.
+            </p>
+        </div>
+
+        <div class="project-section">
+            <h2>What I Learned</h2>
+            <ul>
+                <li>Full-stack application development across web and mobile platforms</li>
+                <li>Mobile-first responsive design principles</li>
+                <li>Backend API design and RESTful architecture</li>
+                <li>Database design and query optimization</li>
+                <li>Cross-platform synchronization techniques</li>
+                <li>User experience design for productivity applications</li>
+            </ul>
+        </div>
+
+        <a href="../portfolio.html" class="back-to-portfolio">← Back to Portfolio</a>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
